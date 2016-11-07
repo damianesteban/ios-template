@@ -2,5 +2,4 @@
 
 set -e
 
-carthage update --platform iOS --no-use-binaries "$@"
-cp Cartfile.resolved Carthage
+bundle exec pod update
